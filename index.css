@@ -1,0 +1,1040 @@
+@font-face {
+    font-family: 'Sansation';
+    src: url('./fonts/Sansation-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lusitana';
+    src: url('./fonts/Lusitana-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SeoulHangang';
+    src: url('./fonts/SeoulHangangCBRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.section-one nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.125rem;
+    margin-left: 3.6875rem;
+    margin-right: 3.6875rem;
+}
+
+.section-one nav .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.125rem;
+    font-family: 'Lusitana', serif;
+    margin-left: 1rem;  
+}
+
+.section-one nav h1 {
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Sansation', sans-serif;
+    color: #963131;
+    line-height: 4.1875rem;
+}
+
+.nav-btn {
+    cursor: pointer;
+    width: 9.375rem;
+    height: 2.5rem;
+    color: #963131;
+    background-color: white;
+    border: 1px solid #963131;
+    font-family: 'SeoulHangang';
+    border-radius: 0.3125rem;
+    font-size: 1.25rem;
+}
+
+.section-one-sub {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 8.8125rem;
+    position: relative;
+    max-height: 31.25rem;
+}
+
+
+
+.section-one-sub h1 {
+    font-family: 'Lusitana', serif;
+    color: #963131;
+    font-weight: 400;
+    font-size: 2.875rem;
+    margin-bottom: 3.5rem;
+}
+
+.section-one-sub p {
+    font-size: 1.125rem;
+    margin-bottom: 3.5rem;
+}
+
+.section-one-sub button {
+    width: 12.5rem;
+    height: 3.125rem;
+    background-color: #963131;
+    border: 1px solid #963131;
+    color: white;
+    border-radius: 0.3125rem;
+    font-size: 1.5rem;
+    font-family: 'SeoulHangang';
+    cursor: pointer;  
+}
+
+.ellipse-parent{
+    width: 44rem; 
+    height: 40rem;
+    overflow: hidden;
+    position: relative;
+    top: -9rem;
+    right: -.0.5rem;
+    z-index: -1;
+}
+
+.ellipse-parent img {
+    position: absolute;
+    width: 34rem; 
+    height: 34rem;
+    z-index: 1;
+    top: 8rem;
+    left: 8rem;
+}
+
+
+.ellipse {
+    width: 62.5rem;
+    height: 62.5rem;
+    border-radius: 50%;
+    position: absolute;
+    top: -8.75rem;
+    right: -20.25rem;
+    background-color: #963131;
+    clip-path: inset(0 30% 10% 0);
+    z-index: -1;
+}
+
+.social-icons {
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    position: relative;
+    margin-top: 3.125rem;
+    margin-left: -3rem;
+}
+
+.social-icons .line {
+    width: 2.5rem;
+    height: 0.125rem;
+    border: none;
+    background-color: #963131;
+    align-self: center;
+}
+
+.social-icons .icon {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 1.45rem;
+    height: 1.45rem;
+    border-radius: 0.3125rem;
+    background-color:#963131;
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+    border: none;
+}
+
+.social-icons .facebook i.fa-facebook-f {
+    position: absolute;
+    font-size: 1.2rem;
+    margin-top: 0.25rem;
+    margin-left: 0.25rem;
+}
+
+.social-icons .instagram {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 1.7rem;
+    height: 1.7rem;
+    border-radius: 0.5rem;
+    background-color:#963131;
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+    border: none;
+}
+
+.social-icons .instagram i.fa-instagram {
+    font-size: 2.1rem;
+}
+
+.section-two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-two .lhs {
+    width: 40rem;
+    height: 45rem;
+    border-radius: 0rem 6.25rem 6.25rem 0rem;
+    background-color: #963131;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-two .lhs .img-container {
+    width: 31.25rem;
+    height: 35.9375rem;
+    border-radius: 0rem 6.25rem 6.25rem 0rem;
+    background-color: white;
+    border:0.3125rem solid white;
+}
+
+.section-two .lhs .img-container img {
+    width: 31.25rem;
+    height: 35.9375rem;
+    border-radius: 0rem 6.25rem 6.25rem 0rem;
+}
+
+.section-two .rhs {
+    margin-right: 3.6875rem;
+    margin-left: 3.6875rem;
+}
+
+.section-two .rhs h1 {
+    color: #963131;
+    font-family: 'SeoulHangang';
+    font-size: 2.625rem;
+    font-weight: 400;
+    margin-bottom: 3.5rem;
+
+}
+
+.section-two .rhs p {
+    font-family: 'SeoulHangang';
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-bottom: 3.5rem;
+
+}
+
+.section-two .rhs button {
+    width: 12.5rem;
+    height: 3.125rem;
+    background-color: #963131;
+    border: 1px solid #963131;
+    color: white;
+    border-radius: 0.3125rem;
+    font-size: 1.5rem;
+    font-family: 'SeoulHangang';
+    cursor: pointer;  
+}
+
+.section-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.section-three h1 {
+    color: #963131;
+    font-family: 'Lusitana', serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.section-three p {
+    font-family: 'SeoulHangang';
+    font-size: 1.125rem;
+    margin-top: 0;
+}
+
+.product-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    gap: 2.5rem;
+}
+
+.product-cards-container div.card {
+    width: 14.25rem;
+    height: 21.5626rem;
+    background-color: #F8F5F5;
+    border-radius: 1.25rem;
+    box-shadow: -0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-cards-container div.card img {
+    width: 12.5rem;
+    height: 12.5rem;
+    filter: drop-shadow(-0.5rem 0.5rem 0.25rem rgba(0, 0, 0, 0.3));
+    margin-bottom: 0.5rem;
+}
+
+.product-cards-container div.card p {
+    font-family: 'Lusitana', serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+
+.product-cards-container div.card p.card-title {
+    font-family: 'Lusitana', serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    margin-bottom: 0;
+}
+
+.stars-review {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    gap: 0.5rem;
+}
+
+.stars {
+    color: #963131;
+    display: flex;
+    font-size: 0.75rem;
+}
+
+.review-count {
+    font-size: 0.875rem;
+    font-weight: 400;
+    font-family: 'Lusitana', serif;
+}
+
+
+.section-three button {
+    width: 12.5rem;
+    height: 3.125rem;
+    background-color: #963131;
+    border: 1px solid #963131;
+    color: white;
+    border-radius: 0.3125rem;
+    font-size: 1.5rem;
+    font-family: 'SeoulHangang';
+    cursor: pointer;  
+    margin-top: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.section-four {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    gap: 2rem;
+}
+
+.section-four h1 {
+    color: #963131;
+    font-family: 'Lusitana', serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+
+.section-four p {
+    font-size: 1.125rem;
+    margin-top: 0;
+}
+
+.beekeepers-cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    gap: 3.75rem;
+}
+
+
+.beekeepers-cards-container div.card {
+    width: 18.8125rem;
+    height: 21.75rem;
+    background-color: #F8F5F5;
+    border-radius: 1.25rem;
+    box-shadow: -0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.beekeepers-cards-container div.pink {
+    background-color: #FFAFAF;
+}
+
+.beekeepers-cards-container div.card img {
+    width: 18.8125rem;
+    height: 13.5625rem;
+    border-radius: 1.25rem 1.25rem 0px 0px;
+    margin-bottom: auto;
+}
+
+.beekeepers-cards-container div.pink img {
+    width: 18.8125rem;
+    height: 11.0625rem;
+    border-radius: 1.25rem 1.25rem 0px 0px;
+    margin-top: 0;
+    padding-bottom: 0;
+}
+
+.beekeepers-cards-container div.card p.bkname {
+    font-family: 'Lusitana', serif;
+    font-size: 1.375rem;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0.25rem;
+}
+
+.beekeepers-cards-container div.card p.beekeeper {
+    color: #963131;
+    font-size: 1.25rem;
+    margin-top: 0;
+    margin-bottom: auto;
+}
+
+
+.beekeepers-cards-container div.card-social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 2.5rem;   
+
+}
+
+.beekeepers-cards-container div.card-social-icons a {
+    background-color: #963131;
+    color: #FFAFAF;
+    font-size: 1rem;
+    width: 1.375rem;
+    height: 1.375rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.3125rem;
+    text-decoration: none;
+}
+
+
+
+
+.beekeepers-cards-container div.card-social-icons a.instagram {
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.beekeepers-cards-container div.card-social-icons a i.fa-facebook-f {
+    margin-top: auto;
+    margin-left: 0.3rem;
+}
+
+.section-four button {
+    width: 12.5rem;
+    height: 3.125rem;
+    background-color: #963131;
+    border: 1px solid #963131;
+    color: white;
+    border-radius: 0.3125rem;
+    font-size: 1.5rem;
+    font-family: 'SeoulHangang';
+    cursor: pointer;  
+    margin-top: 2.5rem;  
+}
+
+.section-five {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6.75rem;
+    margin-right: 6.75rem;
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+    gap: 2rem;
+}
+
+.section-five-lhs {
+    width: 28.125rem;
+    height: 28.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 0;
+}
+
+
+
+.section-five-lhs .circle {
+    width: 6.25rem;
+    height: 6.25rem;
+    background-color: #963131;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle div.quote {
+    color: white;
+    font-size: 3.125rem;
+}
+
+.section-five-lhs div.honeylover-image-card {
+    width: 21.875rem;
+    height: 22rem;
+    background-color:#F8F5F5;
+    border-radius: 20px;
+    box-shadow: -8px 8px 16px rgba(0, 0, 0, 0.3);
+    z-index: -1;
+}
+
+.section-five-lhs div.honeylover-image-card img {
+    width: 21.875rem;
+    height: 22rem;
+    border-radius: 1.25rem;
+}
+
+.section-five-rhs {
+    margin-top: 0;
+}
+
+.section-five-rhs p {
+    font-size: 1.3125rem;
+    font-family: 'SeoulHangang';
+    font-weight: 400;
+}
+
+.section-five-rhs p.name {
+    font-size: 1.75rem;
+    font-family: 'Lusitana';
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.section-five-rhs p.honeylover {
+    font-family: 'Lusitana';
+    font-weight: 400;
+    font-size: 1.1875rem;
+    color: #963131;
+    margin-top: 0;
+}
+
+.section-six {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;    
+}
+
+.section-six h1 {
+    font-family: 'Lusitana';
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
+.section-six .gallery-image-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5.3125rem;
+    margin-right: 5.3125rem;
+    gap: 1.875rem;
+}
+
+.section-six .gallery-image-cards-container .gallery-image-card {
+    width: 21.875rem;
+    height: 15.625rem;
+    background-color:#F8F5F5;
+    border-radius: 20px;
+    box-shadow: -0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+.section-six .gallery-image-cards-container .gallery-image-card img {
+    width: 21.875rem;
+    height: 15.625rem;
+    border-radius: 1.25rem;
+}
+
+.section-six .btn-viewall {
+    width: 12.5rem;
+    height: 3.125rem;
+    background-color: #963131;
+    border: 1px solid #963131;
+    color: white;
+    border-radius: 0.3125rem;
+    font-size: 1.5rem;
+    font-family: 'SeoulHangang';
+    cursor: pointer;  
+    margin-top: 4rem;  
+}
+
+.section-seven-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.section-seven {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    width: 73.9375rem;
+    height: 26.5rem;
+    background-color: #963131;
+    border-radius: 1.25rem;
+}
+
+.section-seven .lhs img {
+    width: 23.5625rem;
+    height: 21.5625rem;
+    filter: drop-shadow(-1.75rem 2rem 2px rgba(0, 0, 0, 0.3));
+}
+
+.section-seven .rhs h1 {
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'Lusitana', serif;
+    font-weight: 400;
+}
+
+.section-seven .rhs p {
+    color: white;
+    font-size: 1.25rem;
+    font-family: 'Lusitana', serif;
+    font-weight: 400;
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-container input[type="text"] {
+    width: 23rem;
+    height: 3.0625rem; 
+    background-color: #963131;
+    border-radius: 0.125rem;
+    border: 0.0625rem solid white;
+    margin-right: 0.375rem;
+    color: white;
+    font-size: 1.3125rem;
+    font-family: 'Lusitana', serif;
+    font-weight: 400;
+}
+
+.form-container input[type="text"]::placeholder {
+    color: white;
+    font-size: 1.3125rem;
+    font-family: 'Lusitana', serif;
+    font-weight: 400;
+}
+
+.form-container button {
+    width: 8.5625rem;
+    height: 3.125rem;
+    border: none;
+    background-color: white;
+    border-radius: 0.125rem;
+    color:#963131;
+    font-size: 1.3125rem;
+    font-family: 'Lusitana', serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.section-eight {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+.section-eight .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+}
+
+.section-eight .header h1 {
+    cursor: pointer;
+    font-size: 1.9375rem;
+    font-family: 'Sansation';
+    font-weight: 400;
+    color: #963131;
+
+}
+
+.section-eight .header p {
+    font-size: 1.25rem;
+    font-family: 'Lusitana';
+    font-weight: 400;
+}
+
+.quick-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.quick-links h2 {
+    color: #963131;
+    font-size: 1.4375rem;
+    font-family: 'Lusitana';
+    font-weight: 400;
+}
+
+.quick-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.25rem;
+}
+
+.product-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.product-links h2 {
+    color: #963131;
+    font-size: 1.4375rem;
+    font-family: 'Lusitana';
+    font-weight: 400;
+}
+
+.product-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.25rem;
+}
+
+.resources {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left
+}
+
+.resources h2 {
+    color: #963131;
+    font-size: 1.4375rem;
+    font-family: 'Lusitana';
+    font-weight: 400;
+}
+
+.resources a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.25rem;
+}
+
+.get-in-touch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-in-touch h1 {
+    color: #963131;
+    font-family: 'Lusitana';
+    font-weight: 700;
+    font-size: 1.8125rem;
+}
+
+.get-in-touch .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    margin-left: 2px;
+}
+.get-in-touch .social-icons a {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 1.45rem;
+    height: 1.45rem;
+    border-radius: 0.3125rem;
+    background-color:#963131;
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+    border: none;
+}
+
+.get-in-touch .social-icons .facebook i.fa-facebook-f {
+    position: absolute;
+    font-size: 1.2rem;
+    margin-top: 0.25rem;
+    margin-left: 0.25rem;
+}
+
+.get-in-touch .social-icons .instagram {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 1.7rem;
+    height: 1.7rem;
+    border-radius: 0.5rem;
+    background-color:#963131;
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+    border: none;
+}
+
+.get-in-touch .social-icons .instagram i.fa-instagram {
+    font-size: 2.1rem;
+}
+
+@media (min-width: 1205px) and (max-width: 1351px) {
+    .section-one-sub h1 {
+        font-family: 'Lusitana', serif;
+        color: #963131;
+        font-weight: 400;
+        font-size: 2rem;
+        margin-bottom: 3.5rem;
+    }
+    
+    .section-one-sub p {
+        font-size: 1.125rem;
+        margin-bottom: 3.5rem;
+    }
+    
+    .section-one-sub button {
+        width: 9rem;
+        height: 2.25rem;
+        background-color: #963131;
+        border: 1px solid #963131;
+        color: white;
+        border-radius: 0.3125rem;
+        font-size: 1rem;
+        font-family: 'SeoulHangang';
+        cursor: pointer;  
+    }
+
+    .ellipse {
+        width: 55rem;
+        height: 55rem;
+        border-radius: 50%;
+        position: absolute;
+        top: -8.75rem;
+        right: -20.25rem;
+        background-color: #963131;
+        clip-path: inset(0 30% 10% 0);
+        z-index: -1;
+    }
+}
+
+@media (min-width: 1068px) and (max-width: 1204px) {
+    .section-one-sub h1 {
+        font-family: 'Lusitana', serif;
+        color: #963131;
+        font-weight: 400;
+        font-size: 1.5rem;
+        margin-bottom: 3.5rem;
+    }
+    
+    .section-one-sub p {
+        font-size: 1rem;
+        margin-bottom: 3.5rem;
+    }
+    
+    .section-one-sub button {
+        width: 8rem;
+        height: 2rem;
+        background-color: #963131;
+        border: 1px solid #963131;
+        color: white;
+        border-radius: 0.3125rem;
+        font-size: 0.8rem;
+        font-family: 'SeoulHangang';
+        cursor: pointer;  
+    }
+
+    .ellipse {
+        width: 55rem;
+        height: 55rem;
+        border-radius: 50%;
+        position: absolute;
+        top: -8.75rem;
+        right: -20.25rem;
+        background-color: #963131;
+        clip-path: inset(0 30% 10% 0);
+        z-index: -1;
+    }
+}
+ 
+@media (max-width: 1067px) {
+    .section-one {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40rem;
+    }
+
+    .section-one-sub {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0; 
+        margin-right: 0;
+        width: 100%; 
+    }
+
+    .rhs {
+        order: 1;
+        width: 100%; 
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .lhs {
+        order: 2;
+        width: 90%; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: -128px;
+        padding-top: 0;
+    }
+
+    .section-two {
+        margin-top: 50rem;
+    }
+
+    .section-two .lhs {
+        order: 3;
+        margin-right: auto;
+    }
+
+    .section-two .rhs {
+        order: 4;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    nav {
+        order: -1;
+        width: 100%; 
+        padding: 0 20px; 
+        box-sizing: border-box;
+    }
+
+    
+
+    .section-one-sub, .section-two {
+        padding: 0;
+    }
+
+    .section-one nav {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .section-two {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+}
+
+@media (max-width: 839px) {
+    .section-one nav h1 {
+        color: black;
+    }
+}
+
+@media (max-width: 1015px) {
+    .product-cards-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 7rem;
+        margin-right: 7rem;
+        gap: 2.5rem;
+    }
+}
+
+@media (max-width: 1067px) {
+    .section-seven {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        width: 73.9375rem;
+        height: 73.9375rem;
+    }
+
+    .section-seven .lhs {
+        order: 1;
+    }
+
+    .section-seven .rhs {
+        order: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+}
