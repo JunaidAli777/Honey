@@ -28,6 +28,10 @@
     margin-right: 3.6875rem;
 }
 
+.section-one nav .nav-links {
+    margin-right: 7rem;
+}
+
 .section-one nav .nav-links a {
     text-decoration: none;
     color: black;
@@ -105,11 +109,11 @@
 
 .ellipse-parent img {
     position: absolute;
-    width: 34rem; 
-    height: 34rem;
+    width: 37.5rem; 
+    height: 37.5rem;
     z-index: 1;
     top: 8rem;
-    left: 8rem;
+    left: 4rem;
 }
 
 
@@ -847,6 +851,12 @@
         font-size: 2rem;
         margin-bottom: 3.5rem;
     }
+
+    .ellipse-parent img {
+        width: 34rem;
+        height: 34rem;
+        left: 8rem;
+    }
     
     .section-one-sub p {
         font-size: 1.125rem;
@@ -902,6 +912,12 @@
         font-size: 0.8rem;
         font-family: 'SeoulHangang';
         cursor: pointer;  
+    }
+
+    .ellipse-parent img {
+        width: 34rem;
+        height: 34rem;
+        left: 8rem;
     }
 
     .ellipse {
