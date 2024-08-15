@@ -669,6 +669,7 @@
     font-size: 1.3125rem;
     font-family: 'Lusitana', serif;
     font-weight: 400;
+    text-indent: 1rem;
 }
 
 .form-container input[type="text"]::placeholder {
